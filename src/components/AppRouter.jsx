@@ -3,7 +3,12 @@ import { Routes, Route } from 'react-router-dom';
 import HomePageContainer from './homePage/homePageContainer';
 import ResultPageContainer from './resultPage/resultPageContainer';
 import NotFoundPage from './errorPage/notFoundPage';
-import { HOME_ROUTE, RESULT_ROUTE, NOT_FOUND, WORD_ROUTE } from '../constants/constants';
+import {
+  HOME_ROUTE,
+  RESULT_ROUTE,
+  NOT_FOUND,
+  WORD_ROUTE,
+} from '../constants/constants';
 
 const AppRouter = () => {
   return (
