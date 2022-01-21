@@ -12,7 +12,7 @@ const SearchForm = () => {
   return (
     <Form onSubmit={getWord}>
       <Form.Group className='mb-3'>
-        <Form.Label>Enter word</Form.Label>
+        <Form.Label>Search for a Word</Form.Label>
         <Form.Control type='text' placeholder='Enter word' />
       </Form.Group>
       <Button variant='primary' type='submit'>
